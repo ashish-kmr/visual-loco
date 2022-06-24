@@ -96,7 +96,9 @@
                 <br/>
                 <!-- <center><h1><a href="rma-locomotion-final.pdf">Paper</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<a href="rma-locomotion-supplementary.pdf"> Supplementary </a> </h1></center> -->
                 <br/>
+                <p style="font-size:20px">
                 Animals are capable of precise and agile locomotion using vision. Replicating this ability has been a long-standing goal in robotics. The traditional approach has been to decompose this problem into elevation mapping and foothold planning phases. The elevation mapping, however, is susceptible to failure and large noise artifacts, requires specialized hardware, and is biologically implausible. In this paper, we present the first end-to-end locomotion system capable of traversing stairs, curbs, stepping stones, and gaps. We show this result on a medium-sized quadruped robot using a single front-facing depth camera. The small size of the robot necessitates discovering specialized gait patterns not seen elsewhere. The egocentric camera requires the policy to remember past information to estimate the terrain under its hind feet. We train our policy in simulation. Training has two phases - first, we train a policy using reinforcement learning with a cheap-to-compute variant of depth image and then in phase 2 distill it into the final policy that uses depth using supervised learning. The resulting policy transfers to the real world without any fine-tuning and can traverse a large variety of terrain while being robust to perturbations like pushes, slippery surfaces, and rocky terrain.
+                </p>
 <!--                <center>
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/TtpLuGanpLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </center>
